@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="Tank_Filling_SCADA" description="" project_version="" system_version="1.2" creator="admin" projectid="2E972C3E-D0A3-4B3E-AD3E-A5ED09F577B2" createtime="1793306684">
+	<control>
+	</control>
+	<hmi>
+		<oparea name="OA0" description="SubProject0" detaildesc="" uuidforhmi="E856D2C6-FDB0-4CB7-A964-D20D4002E71E" redundance="0" id="0">
+			<!--Server Type Enumeration  0:Local Data Server 1:Operation Station 2: Single 3:Remote IO Server 4: VH Real-Time History Server 5;VH History Server 6: Application Server-->
+			<server name="Server_1" type="0" ctrladdr="127.0.0.1" addr="127.0.0.1"/>
+			<!--Configuration Engineer-->
+				<user>admin</user>
+		</oparea>
+	</hmi>
+	<UserGroups>
+	</UserGroups><users>
+		<user name="admin" password="D41D8CD98F00B204E9800998ECF8427E" isadmin="true" desc=""/>
+	</users>
+		<config oncolor="255" offcolor="65280" decimaldigits="3" noalarmconfigpanellightcolor="14474460" noalarmpanellightcolor="32768" FullAddress="" SleepAlarmSet="32" ClassicalStyle="1" redundance="0">
+		</config>
+		<timesync>
+		</timesync>
+</project>

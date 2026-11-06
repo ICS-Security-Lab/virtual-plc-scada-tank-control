@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module delflag="0" version="3.0">
+<panelset default="SYS_BOOL">
+<panel name="SYS_BOOL" desc="" file="SYS_BOOL.pnl"/>
+</panelset>
+<symbolset default=""/>
+</module>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typelist>
+<struct namespace="GCS::GCU" name="AI751_IN" desc="" arrayNum="1" elementType="">
+<elem name="AI_CH1_FLAG" desc="AI Channel1 Flag" type="BOOL"/>
+<elem name="AI_CH2_FLAG" desc="AI Channel2 Flag" type="BOOL"/>
+<elem name="AI_CH3_FLAG" desc="AI Channel3 Flag" type="BOOL"/>
+<elem name="AI_CH4_FLAG" desc="AI Channel4 Flag" type="BOOL"/>
+<elem name="AI_CH5_FLAG" desc="AI Channel5 Flag" type="BOOL"/>
+<elem name="AI_CH6_FLAG" desc="AI Channel6 Flag" type="BOOL"/>
+<elem name="AI_CH7_FLAG" desc="AI Channel7 Flag" type="BOOL"/>
+<elem name="AI_CH8_FLAG" desc="AI Channel8 Flag" type="BOOL"/>
+<elem name="AI_CH1" desc="AI Channel1 Input Value" type="INT"/>
+<elem name="AI_CH2" desc="AI Channel2 Input Value" type="INT"/>
+<elem name="AI_CH3" desc="AI Channel3 Input Value" type="INT"/>
+<elem name="AI_CH4" desc="AI Channel4 Input Value" type="INT"/>
+<elem name="AI_CH5" desc="AI Channel5 Input Value" type="INT"/>
+<elem name="AI_CH6" desc="AI Channel6 Input Value" type="INT"/>
+<elem name="AI_CH7" desc="AI Channel7 Input Value" type="INT"/>
+<elem name="AI_CH8" desc="AI Channel8 Input Value" type="INT"/>
+</struct>
+</typelist>

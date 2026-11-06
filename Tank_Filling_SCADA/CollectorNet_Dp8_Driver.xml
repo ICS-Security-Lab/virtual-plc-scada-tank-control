@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ArchiveFile FileMark="SUPCON DOMAINTAG CFG FILE" CfgVersion="0x0010" Reserved="" UUID="">
+<CollectorInfo>
+<Collector Name="OA0" Port="60001"/>
+</CollectorInfo>
+</ArchiveFile>

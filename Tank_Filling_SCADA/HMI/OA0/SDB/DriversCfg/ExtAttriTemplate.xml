@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Template>
+	<ExtAttri typename="_AI">
+		<Item>
+			<Variable field="PV"/>
+			<HighLimit field="SCH"/>
+			<LowLimit field="SCL"/>
+			<Decimal field="DLEN"/>
+			<Unit field="EU"/>
+		</Item>
+	</ExtAttri>
+	<ExtAttri typename="_AO">
+		<Item>
+			<Variable field="MV"/>
+			<HighLimit field="SCH"/>
+			<LowLimit field="SCL"/>
+			<Decimal field="DLEN"/>
+			<Unit field="EU"/>
+		</Item>
+	</ExtAttri>
+	<ExtAttri typename="_PID">
+		<Item>
+			<Variable field="MV"/>
+			<HighLimit field="MVSCH"/>
+			<LowLimit field="MVSCL"/>
+		</Item>
+		<Item>
+			<Variable field="SV"/>
+			<HighLimit field="SVSCH"/>
+			<LowLimit field="SVSCL"/>
+		</Item>
+	</ExtAttri>
+</Template>

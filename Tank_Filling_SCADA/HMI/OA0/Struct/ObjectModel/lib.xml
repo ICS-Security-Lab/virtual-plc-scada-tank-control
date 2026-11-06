@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<lib version="1.0">
+<elem name="GCS_AI" desc="AI Tag Function Block" type="_AI" class="1"/>
+<elem name="GCS_AO" desc="AO Tag Function Block" type="_AO" class="1"/>
+<elem name="GCS_DI" desc="DI Tag Function Block" type="_DI" class="1"/>
+<elem name="GCS_DO" desc="DO Tag Function Block" type="_DO" class="1"/>
+<elem name="GCS_PID" desc="Single Loop PID Function Block" type="_PID" class="1"/>
+<elem name="GCS_AI751_D" desc="" type="AI751_D" class="1"/>
+<elem name="GCS_AI751_IN" desc="" type="AI751_IN" class="1"/>
+<elem name="SYS_REAL" desc="Real" type="LREAL" class="1"/>
+<elem name="SYS_INTEGER" desc="Integer" type="LINT" class="1"/>
+<elem name="SYS_STRING" desc="String" type="STRING" class="1"/>
+<elem name="SYS_BOOL" desc="Bool" type="BOOL" class="1"/>
+</lib>

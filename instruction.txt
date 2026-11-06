@@ -1,0 +1,100 @@
+==============================================================
+ HOW TO RUN THIS PROJECT
+ Virtual PLC + SCADA Tank Control System
+==============================================================
+
+This repository has two project folders:
+
+  PLC_Bac/            -> the PLC project (ladder logic) for the PLC editor
+  Tank_Filling_SCADA/ -> the SCADA project (tags, operator screen, alarms)
+
+Follow the steps below in order.
+
+
+--------------------------------------------------------------
+ WHAT YOU NEED
+--------------------------------------------------------------
+  - OpenPLC Editor and OpenPLC Runtime
+  - Factory I/O (Filling Tank scene)
+  - SoLiSCADA (with Project Manager and VFDraw)
+  - All three running on the same machine (or on machines that
+    can reach each other over the network)
+
+
+--------------------------------------------------------------
+ STEP 1: IMPORT THE PLC PROJECT
+--------------------------------------------------------------
+  1. Download or clone this repository.
+  2. Open the PLC editor.
+  3. Import the project from the PLC_Bac folder.
+  4. Check that the variables and the 30 rungs of ladder logic
+     loaded correctly.
+  5. Compile the program and upload it to the OpenPLC Runtime.
+
+
+--------------------------------------------------------------
+ STEP 2: IMPORT THE SCADA PROJECT
+--------------------------------------------------------------
+  1. Copy the Tank_Filling_SCADA folder.
+  2. Paste it inside your SUPCON_PROJECT folder.
+  3. Open Project Manager.
+  4. Use the import option and select Tank_Filling_SCADA.
+  5. If it asks for a password, use:
+
+         sshhsshh12
+
+  6. Once imported, open the project and the Tank_Control page.
+
+
+--------------------------------------------------------------
+ STEP 3: START EVERYTHING IN THE RIGHT ORDER
+--------------------------------------------------------------
+  1. Factory I/O: load the "Filling Tank (Timers)" scene and
+     start the Modbus TCP/IP server. The status bar should say
+     "Modbus TCP/IP Server (Started)".
+  2. OpenPLC Runtime: start the PLC. The log should show the
+     Modbus device loaded and "PLC State: RUNNING".
+  3. SoLiSCADA: run the project and open the Tank_Control page.
+     Tags should show live values instead of question marks.
+
+
+--------------------------------------------------------------
+ STEP 4: QUICK TEST
+--------------------------------------------------------------
+  1. Press Fill. The level bar should rise and Time Remaining
+     should count down from the preset.
+  2. When the timer reaches zero, the fill valve closes.
+  3. Press Discharge while a fill is running. It should be
+     ignored until the fill finishes (interlock).
+
+
+--------------------------------------------------------------
+ IF SOMETHING DOES NOT WORK
+--------------------------------------------------------------
+  - Tags show question marks:
+      Check that the PLC is RUNNING and the Modbus driver in
+      SoLiSCADA points to the right IP and port (502).
+
+  - OpenPLC cannot connect to Factory I/O:
+      Start the Factory I/O Modbus server first. In the PLC
+      device settings, make sure the IP address matches your
+      machine. The project used 192.168.56.1:502, which may be
+      different on your computer.
+
+  - Values stay at zero:
+      Compare the Modbus addresses in the PLC variables with
+      the SCADA tags. A single wrong address gives no error,
+      just silence.
+
+  - Scan overrun warnings in the runtime log:
+      The program still runs, but this is a known item on my
+      list to investigate.
+
+
+--------------------------------------------------------------
+ MORE DETAILS
+--------------------------------------------------------------
+  Full walkthrough: https://dev.to/almahmudkhalif/
+  LinkedIn: https://www.linkedin.com/in/almahmudkhalif/
+
+==============================================================

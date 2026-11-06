@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typelist>
+<struct namespace="GCS::GCU" name="_AO" desc="" arrayNum="1" elementType="">
+<elem name="MV" desc="Input Value" type="REAL"/>
+<elem name="STATE" desc="Channel Status" type="BYTE"/>
+<elem name="ALARM" desc="Alarm Status" type="DWORD"/>
+<elem name="ATC" desc="Direct/Reverse Selection:ON=Reverse Output,OFF=Direct Output" type="BOOL"/>
+<elem name="SCL" desc="Range Minimum" type="REAL"/>
+<elem name="SCH" desc="Range Maximum" type="REAL"/>
+<elem name="LORLIM" desc="Expand Range Minimum Percentage(Less than or Equal to 10)" type="REAL"/>
+<elem name="HORLIM" desc="Expand Range Maximum Percentage(Less than or Equal to 10)" type="REAL"/>
+<elem name="DLEN" desc="Decimals" type="USINT"/>
+<elem name="EU" desc="Units" type="BYTE"/>
+</struct>
+</typelist>

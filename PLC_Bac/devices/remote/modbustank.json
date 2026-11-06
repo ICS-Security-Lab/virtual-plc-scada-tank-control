@@ -1,0 +1,144 @@
+{
+  "name": "modbustank",
+  "protocol": "modbus-tcp",
+  "modbusTcpConfig": {
+    "host": "192.168.56.1",
+    "port": 502,
+    "timeout": 1000,
+    "slaveId": 1,
+    "ioGroups": [
+      {
+        "id": "5476c3fa-6de7-481e-b05d-13c92d0571aa",
+        "name": "Buttons",
+        "functionCode": "2",
+        "cycleTime": 100,
+        "offset": "0",
+        "length": 2,
+        "errorHandling": "keep-last-value",
+        "ioPoints": [
+          {
+            "id": "Buttons_0",
+            "name": "Buttons_0",
+            "type": "Digital Input (Discrete Input)",
+            "iecLocation": "%IX0.0",
+            "alias": ""
+          },
+          {
+            "id": "Buttons_1",
+            "name": "Buttons_1",
+            "type": "Digital Input (Discrete Input)",
+            "iecLocation": "%IX0.1",
+            "alias": ""
+          }
+        ]
+      },
+      {
+        "id": "054804d2-3eae-4d89-abb2-874ba5d7df87",
+        "name": "Valves",
+        "functionCode": "15",
+        "cycleTime": 100,
+        "offset": "0",
+        "length": 4,
+        "errorHandling": "keep-last-value",
+        "ioPoints": [
+          {
+            "id": "Valves_0",
+            "name": "Valves_0",
+            "type": "Digital Output (Multiple Coils)",
+            "iecLocation": "%QX0.0",
+            "alias": ""
+          },
+          {
+            "id": "Valves_1",
+            "name": "Valves_1",
+            "type": "Digital Output (Multiple Coils)",
+            "iecLocation": "%QX0.1",
+            "alias": ""
+          },
+          {
+            "id": "Valves_2",
+            "name": "Valves_2",
+            "type": "Digital Output (Multiple Coils)",
+            "iecLocation": "%QX0.2",
+            "alias": ""
+          },
+          {
+            "id": "Valves_3",
+            "name": "Valves_3",
+            "type": "Digital Output (Multiple Coils)",
+            "iecLocation": "%QX0.3",
+            "alias": ""
+          }
+        ]
+      },
+      {
+        "id": "c6aafbe3-7610-4381-bce8-2959b231dbe0",
+        "name": "Display",
+        "functionCode": "16",
+        "cycleTime": 100,
+        "offset": "0",
+        "length": 1,
+        "errorHandling": "keep-last-value",
+        "ioPoints": [
+          {
+            "id": "Display_0",
+            "name": "Display_0",
+            "type": "Analog Output (Multiple Registers)",
+            "iecLocation": "%QW0",
+            "alias": ""
+          }
+        ]
+      },
+      {
+        "id": "47416196-6d12-466f-8c5f-3479410a6935",
+        "name": "Tank_Level_Input",
+        "functionCode": "4",
+        "cycleTime": 200,
+        "offset": "0",
+        "length": 2,
+        "errorHandling": "keep-last-value",
+        "ioPoints": [
+          {
+            "id": "Tank_Level_Input_0",
+            "name": "Tank_Level_Input_0",
+            "type": "Analog Input (Input Register)",
+            "iecLocation": "%IW0",
+            "alias": ""
+          },
+          {
+            "id": "Tank_Level_Input_1",
+            "name": "Tank_Level_Input_1",
+            "type": "Analog Input (Input Register)",
+            "iecLocation": "%IW1",
+            "alias": ""
+          }
+        ]
+      },
+      {
+        "id": "86fd99d1-a2e0-45a5-a2e6-d8de9df977a9",
+        "name": "Analog_Valves",
+        "functionCode": "16",
+        "cycleTime": 200,
+        "offset": "1",
+        "length": 2,
+        "errorHandling": "keep-last-value",
+        "ioPoints": [
+          {
+            "id": "Analog_Valves_0",
+            "name": "Analog_Valves_0",
+            "type": "Analog Output (Multiple Registers)",
+            "iecLocation": "%QW1",
+            "alias": ""
+          },
+          {
+            "id": "Analog_Valves_1",
+            "name": "Analog_Valves_1",
+            "type": "Analog Output (Multiple Registers)",
+            "iecLocation": "%QW2",
+            "alias": ""
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typelist>
+<struct namespace="GCS::GCU" name="_AI" desc="AI Tag Function Block" arrayNum="1" elementType="">
+<elem name="PV" desc="Actual Value" type="REAL"/>
+<elem name="PV_PCT" desc="Percentage" type="REAL"/>
+<elem name="STATE" desc="Channel Status" type="BYTE"/>
+<elem name="ALARM" desc="Alarm Status" type="DWORD"/>
+<elem name="SWAM" desc="Manual/Auto Switch: OFF=Manual, ON=Auto" type="BOOL"/>
+<elem name="MODE" desc="Signal Types: 0=Linear Transformation, 1=Evolution Transformation" type="USINT"/>
+<elem name="SWLCUT" desc="Small Signal Resection: ON=Resection, OFF=No Resection" type="BOOL"/>
+<elem name="LCUT" desc="Small Signal Resection Value" type="REAL"/>
+<elem name="TFLT" desc="Fliter Time Contant(s)" type="REAL"/>
+<elem name="SCL" desc="Range Minimum" type="REAL"/>
+<elem name="SCH" desc="Range Maximum" type="REAL"/>
+<elem name="LORLIM" desc="Expand Range Minimum Percentage(Less than or Equal to 10)" type="REAL"/>
+<elem name="HORLIM" desc="Expand Range Maximum Percentage(Less than or Equal to 10)" type="REAL"/>
+<elem name="DLEN" desc="Decimals" type="USINT"/>
+<elem name="EU" desc="Units" type="BYTE"/>
+<elem name="SWFAULT" desc="Fault Preset Value Output Switch: OFF=Hold, ON= Output the Preset Value" type="BOOL"/>
+<elem name="FAULTVAL" desc="Fault Preset Value" type="REAL"/>
+<elem name="SWDPV" desc="Single Cycle Rate Amplitude Limit Enable Switch" type="BOOL"/>
+<elem name="DPV" desc="Single Cycle Rate Amplitude Limit Value" type="REAL"/>
+<elem name="ENHH" desc="Alarm HH Limit Enable Switch" type="BOOL"/>
+<elem name="HH" desc="Alarm HH Limit Value" type="REAL"/>
+<elem name="ENH" desc="Alarm H Limit Enable Switch" type="BOOL"/>
+<elem name="H" desc="Alarm H Limit Value" type="REAL"/>
+<elem name="ENL" desc="Alarm L Limit Enable Switch" type="BOOL"/>
+<elem name="L" desc="Alarm L Limit Value" type="REAL"/>
+<elem name="ENLL" desc="Alarm LL Limit Enable Switch" type="BOOL"/>
+<elem name="LL" desc="Alarm LL Limit Value" type="REAL"/>
+<elem name="HYS" desc="Alarm Hysteresis" type="REAL"/>
+</struct>
+</typelist>

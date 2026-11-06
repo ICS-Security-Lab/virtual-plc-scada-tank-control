@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typelist>
+<struct namespace="GCS::GCU" name="_DI" desc="" arrayNum="1" elementType="">
+<elem name="OUT" desc="Project Value" type="BOOL"/>
+<elem name="STATE" desc="Channel Status" type="BYTE"/>
+<elem name="ALARM" desc="Alarm Status" type="DWORD"/>
+<elem name="SWAM" desc="Manual/Auto Selection: OFF=Manual, ON=Auto" type="BOOL"/>
+<elem name="SWFAULT" desc="Fault Preset Value Output Switch: OFF=Keeping, ON= OutputFault Preset Value" type="BOOL"/>
+<elem name="FAULTVAL" desc="Fault Preset Value" type="BOOL"/>
+<elem name="ENALM" desc="ON/OFF Alarm Enable" type="BOOL"/>
+<elem name="SWALM" desc="ON/OFF Alarm Selection: ON=ON Status Alarm, OFF=OFF Status Alarm" type="BOOL"/>
+</struct>
+</typelist>

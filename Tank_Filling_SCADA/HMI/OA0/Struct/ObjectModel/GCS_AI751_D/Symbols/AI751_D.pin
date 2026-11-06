@@ -1,0 +1,5 @@
+#StructPinHead#
+@THIS@.COMMSTATE Communication Status: ON=Fault, OFF=Normal
+@THIS@.NORMALFAULT Slight Fault Mark: ON=Slight Fault, OFF=No Slight Fault
+@THIS@.SERIOUSFAULT Serious Fault Mark: ON=Serious Fault, OFF=No Serious Fault
+@THIS@.WORKSATE Work/Standby Status: ON=Work, OFF=Standby

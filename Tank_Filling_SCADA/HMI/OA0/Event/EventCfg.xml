@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Events UUID="86B96B90-C380-48A8-A502-BEA468E2B37B" MaxIndex="2">
+<Event Index="1" Name="Tank_High_Level" Desc="WARNING: Tank water level is HIGH" Expression="&apos;Tank_Level_Raw&apos; &gt;= 800" Type="HIGHL" Location="" Priority="1" Color="255" Enable="true" ConfirmDel="false" EventType="0"/>
+<Event Index="2" Name="Tank_Low_Level" Desc="WARNING: Tank water level is LOW" Expression="&apos;Tank_Level_Raw&apos; &lt;= 200" Type="LOW" Location="" Priority="1" Color="16711680" Enable="true" ConfirmDel="false" EventType="0"/>
+</Events>

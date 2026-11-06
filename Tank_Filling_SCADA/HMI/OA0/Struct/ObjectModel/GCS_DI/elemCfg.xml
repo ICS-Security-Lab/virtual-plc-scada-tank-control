@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module delflag="0" version="1.0">
+<panelset default="gcs_di">
+<panel name="gcs_di" desc="" file="gcs_di.pnl"/>
+</panelset>
+<symbolset default=""/>
+</module>

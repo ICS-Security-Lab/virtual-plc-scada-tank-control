@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typelist>
+<struct namespace="GCS::GCU" name="AI751_D" desc="" arrayNum="1" elementType="">
+<elem name="DEVCFGSTATE" desc="Device Configuration Match Status: ON=Mismatch, OFF=Match" type="BOOL"/>
+<elem name="DEVTYPESTATE" desc="Device Type Match Status: ON=Mismatch, OFF=Match" type="BOOL"/>
+<elem name="COMMSTATE" desc="Communication Status: ON=Fault, OFF=Normal" type="BOOL"/>
+<elem name="NORMALFAULT" desc="Slight Fault Mark: ON=Slight Fault, OFF=No Slight Fault" type="BOOL"/>
+<elem name="SERIOUSFAULT" desc="Serious Fault Mark: ON=Serious Fault, OFF=No Serious Fault" type="BOOL"/>
+<elem name="WORKSATE" desc="Work/Standby Status: ON=Work, OFF=Standby" type="BOOL"/>
+</struct>
+</typelist>

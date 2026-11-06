@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module delflag="0" version="1.0">
+<panelset default="gcs_ai">
+<panel name="gcs_ai" desc="" file="gcs_ai.pnl"/>
+</panelset>
+<symbolset default=""/>
+</module>

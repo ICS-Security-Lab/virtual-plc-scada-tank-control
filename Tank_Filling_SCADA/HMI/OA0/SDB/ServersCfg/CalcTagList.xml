@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ArchiveFile FileMark="SUPCON DOMAINTAG CFG FILE" CfgVersion="" Reserved="" UUID="">
+<CalcTagList>
+<CalcTag tagname="Idle_Status" desc="" expression=" NOT (Tag(&quot;Filling_Status&quot;)  OR Tag(&quot;Discharging_Status&quot;))" groupid="0" interval="0" isBitwiseNOT="0" bitNumber="0"/>
+<CalcTag tagname="Tank_Level_Percent" desc="" expression="Tag(&quot;Tank_Level_Raw&quot;) / 10" groupid="0" interval="0" isBitwiseNOT="0" bitNumber="0"/>
+<CalcTag tagname="Timer_Minutes" desc="" expression=" INT (Tag(&quot;Timer_Remaining&quot;)  /  60)" groupid="0" interval="0" isBitwiseNOT="0" bitNumber="0"/>
+<CalcTag tagname="Timer_Seconds" desc="" expression="Tag(&quot;Timer_Remaining&quot;)  MOD 60" groupid="0" interval="0" isBitwiseNOT="0" bitNumber="0"/>
+</CalcTagList>
+</ArchiveFile>

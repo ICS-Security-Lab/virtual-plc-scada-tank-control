@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module delflag="0" version="2.0">
+<panelset default="SYS_STRING">
+<panel name="SYS_STRING" desc="" file="SYS_STRING.pnl"/>
+</panelset>
+<symbolset default=""/>
+</module>

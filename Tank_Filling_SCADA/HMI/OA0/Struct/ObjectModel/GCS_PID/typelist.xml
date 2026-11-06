@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typelist>
+<struct namespace="GCS::GCU" name="_PID" desc="" arrayNum="1" elementType="">
+<elem name="PV" desc="Process Value" type="REAL"/>
+<elem name="CSV" desc="Cascade" type="REAL"/>
+<elem name="SWTR" desc="Track Switch" type="BOOL"/>
+<elem name="TV" desc="Track Input Value" type="REAL"/>
+<elem name="OA" desc="Output Compensation Value" type="REAL"/>
+<elem name="MV" desc="Operation Output Value" type="REAL"/>
+<elem name="FLAG" desc="Quality Code" type="UDINT"/>
+<elem name="SV" desc="Set Value" type="REAL"/>
+<elem name="SWAM" desc="Manual/Auto Switch: ON=Auto, OFF=Manual" type="BOOL"/>
+<elem name="SWSV" desc="Auto/Cascade Selection: OFF=Auto, ON=Cascade" type="BOOL"/>
+<elem name="PNSEL" desc="Direct/Reverse Action: ON=Reverse, OFF=Direct" type="BOOL"/>
+<elem name="MODE" desc="Working Mode: 3=TRACK, 4=MAN, 5=AUTO, 6=CAS" type="USINT"/>
+<elem name="PB" desc="Proportion Band size" type="REAL"/>
+<elem name="TI" desc="Integral Time(s)" type="REAL"/>
+<elem name="TD" desc="Derivative Time(s)" type="REAL"/>
+<elem name="KD" desc="Derivative Filter Coeficient" type="REAL"/>
+<elem name="MANMV" desc="Manual Output Value" type="REAL"/>
+<elem name="EI" desc="Error" type="REAL"/>
+<elem name="MVH" desc="Output Clipping High Limits Value" type="REAL"/>
+<elem name="MVL" desc="Output Clipping Low Limits Value" type="REAL"/>
+<elem name="HORLIM" desc="Extended Range Maximum Percentage(Less than or Equal to 10)" type="REAL"/>
+<elem name="LORLIM" desc="Extended Range Minimum Percentage(Less than or Equal to 10)" type="REAL"/>
+<elem name="PVHH" desc="PV HH Limit Alarm Value" type="REAL"/>
+<elem name="PVH" desc="PV H Limit Alarm Value" type="REAL"/>
+<elem name="PVLL" desc="PV LL Limit Alarm Value" type="REAL"/>
+<elem name="PVL" desc="PV L Limit Alarm Value" type="REAL"/>
+<elem name="PVHYS" desc="PV Alarm Hysteresis" type="REAL"/>
+<elem name="DMVLIM" desc="Output Speed Clipping Value" type="REAL"/>
+<elem name="DL" desc="Error Alarm Set Value" type="REAL"/>
+<elem name="IA" desc="Input Compensation Value" type="REAL"/>
+<elem name="DB" desc="Deadband Band Size" type="REAL"/>
+<elem name="DBHYS" desc="Deadband Band Hysteresis" type="REAL"/>
+<elem name="MVSCH" desc="Output Actual Value Maximum" type="REAL"/>
+<elem name="MVSCL" desc="Output Actual Value Minimum" type="REAL"/>
+<elem name="SVSCH" desc="Set Value Maximum" type="REAL"/>
+<elem name="SVSCL" desc="Set Value Minimum" type="REAL"/>
+<elem name="STOPP" desc="Stop Proportional Action" type="BOOL"/>
+<elem name="STOPI" desc="Stop Integral Action" type="BOOL"/>
+<elem name="NGN_OPT" desc="Non-linear Gain Selection: OFF=Error Square Root Function, ON=Gap Action Function" type="BOOL"/>
+<elem name="KN" desc="Non-linear Gain Coefficient[0,1]" type="REAL"/>
+<elem name="GW" desc="Non-linear Gain Range" type="REAL"/>
+<elem name="SWDB" desc="Deadband Enabled" type="BOOL"/>
+<elem name="PID_OPT" desc="PID Type Selection: 0=Common, 1=Differential First, 2=Proportion Differential First" type="USINT"/>
+</struct>
+</typelist>

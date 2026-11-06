@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModbusTCPConfig version="2.2" name="Modbus TCP">
+<Channel name="CHANNEL1" description="" IP="16777343" Port="502" IP2="0" Port2="502" replyTime="1000" retryCount="3" retryDelay="1000" Retry="0" EnableBackup="0" IPBackup="0" PortBackup="502" IPBackup2="0" PortBackup2="502" replyTimeBackup="1000" retryCountBackup="3" retryDelayBackup="1000" DeviceSendOrder="1" pollRate1="500" pollRate2="10000" group="GROUP1">
+<Device name="DEVICE1" description="" devEnable="1" DeviceID="1" address="0" bitpos="2" outputMode="1" wordReverse="1" lwordReverse="1" pollInterval="30">
+<Block name="Regs" description="" startAddress="1024" endAddress="1026" dataType="3" deadBand="0" pollrate1="1000" pollrate2="10000" pollphase="0" Dec="1"/>
+<Block name="Coils" description="" startAddress="4" endAddress="7" dataType="1" deadBand="0" pollrate1="1000" pollrate2="10000" pollphase="1" Dec="1"/>
+<Block name="BLOCK1" description="" startAddress="2" endAddress="3" dataType="1" deadBand="0" pollrate1="1000" pollrate2="10000" pollphase="2" Dec="1"/>
+<Block name="TimerRegs" description="" startAddress="0" endAddress="0" dataType="3" deadBand="0" pollrate1="1000" pollrate2="10000" pollphase="3" Dec="1"/>
+</Device>
+</Channel>
+</ModbusTCPConfig>
